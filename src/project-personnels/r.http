@@ -1,0 +1,12 @@
+GET http://localhost:3000/project-personnels
+
+###
+
+POST http://localhost:3000/project-personnels
+Content-Type: application/json
+
+{
+    "UserId":"023",
+    "ProjectId":"001",
+    "Personneltype":"tester"
+}
